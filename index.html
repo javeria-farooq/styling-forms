@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="./form submitting.html">
+        <fieldset id="field">
+            <legend>Personal Information</legend>
+            
+            <br>
+        <label id="margin" class="per">NAME: </label>
+        <!-- <label class="space">home</label> -->
+        <input required class="perinf" type="text"><br><br>
+        <label class="per" for="">FATHER's NAME: </label>
+        <!-- <label class="space">home</label> -->
+        <input required class="perinf" type="text"><br><br>
+        <label class="per" for="">EMAIL: </label>
+        <!-- <label class="space">home</label> -->
+        <input required class="perinf" id="email" type="email"><br><br>
+        <label class="per" for="">PASSWORD: </label>
+        <!-- <label class="space">home</label> -->
+        <input required class="perinf" id="pass" type="password"><br><br>
+        <label class="per" for="">CNIC/B.FORM NO: </label>
+        <!-- <label class="space">home</label> -->
+        <input required class="perinf" type="number"><br><br>
+        <label class="per">Date Of Birth: </label>
+        <!-- <label class="space">home</label> -->
+        <input required class="perinf" type="date">
+        <br><br>
+        <label class="per" for="">ADDRESS: </label><br><br>
+        <textarea required class="perinf" placeholder="Enter Address!" cols="30" rows="5"></textarea>
+        </fieldset>
+       <br>
+       <label class="class">GENDER: </label><br><br>
+       <input required type="radio" name="gender" id="male"><label id="text" for="male">Male</label>
+       <br>
+       <input required type="radio" name="gender" id="female"><label for="female">Female</label>
+       <br><br>
+        <label class="class">search: </label>   <input class="perinf" type="search">
+        <br><br>
+        <label class="class">Select Country: </label>
+        <select required class="perinf">
+             <option selected disabled>Choose Country</option>
+             <option>Pakistan</option>
+             <option>Afghanistan</option>
+             <option>Iran</option>
+             <option>Iraq</option>
+        </select>
+        <br><br>
+        <p required class="class">Select Courses: </p><br>
+        <input type="checkbox"><label>C.I.T</label><br>
+        <input type="checkbox"><label>Web Development</label><br>
+        <input type="checkbox"><label>Artificial intelligence</label><br>
+        <input type="checkbox"><label>Flutter</label><br>
+        <input type="checkbox"><label>Graphics Designing</label><br>
+        <input type="checkbox"><label>Freelancing</label><br>
+        <br><br>
+        <label class="class">Choose File: </label><br><br>
+        <input id="file" type="file">
+        <br><br>
+        <input type="submit" id="button">
+
+
+    </form>
+    
+</body>
+
+</html>

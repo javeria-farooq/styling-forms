@@ -1,0 +1,108 @@
+#pass{
+    background-image: url('https://www.svgrepo.com/show/353106/eye.svg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 20px;
+}
+
+#email{
+    background-image: url('https://simpleicon.com/wp-content/uploads/icon2.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+}
+
+
+
+
+legend{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: overline;
+    text-decoration-color: white;
+    text-shadow: 10px 10px 10px black;
+}
+
+.class{
+    background-color: green;
+    color: white;
+    width: 100px;
+    display: inline-block;
+}
+
+fieldset{
+    box-shadow: 10px 10px 10px black;
+}
+
+
+
+
+body{
+    background-color: pink;
+}
+
+#field{
+    background-color: white;
+}
+
+.bhar{
+    background-color: black;
+}
+
+.per{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    border-bottom: 3px double black;
+    border-top: 1px solid black;
+    background-color: aqua;
+    margin-right: 30px;
+
+}
+
+.perinf{
+    background-color: yellow;
+}
+
+.perinf:hover{
+    background-color: skyblue;
+}
+
+.perinf:focus{
+    background-color: red;
+    color: white;
+}
+
+legend{
+    background-color: black;
+    color: white;
+}
+
+#file{
+    background-color: red;
+    color: white;
+}
+
+#button{
+    background-color: red;
+    color: white;
+}
+
+.space {
+    visibility: hidden;
+}
+
+.perinf:focus{
+    background-color: blue;
+    color: white;
+}
+
+#text{
+    background-color: white;
+    border-bottom: none;
+    border-top: none;
+}
+
+
